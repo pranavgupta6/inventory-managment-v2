@@ -1,0 +1,3991 @@
+[
+  {
+    "actorId": "19101269",
+    "actorName": "Vinod Kundra",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "BENCHMARK_CONTROLLER",
+    "details": {
+      "action": "Benchmark Controller Revoked",
+      "previousController": "Rohan Raj Singh (19101020)"
+    },
+    "status": "SUCCESS",
+    "id": "0f6641ea-d028-4e88-a278-b47c8268120d",
+    "timestamp": "2026-11-12T05:18:37.966Z"
+  },
+  {
+    "actorId": "19101269",
+    "actorRole": "Admin",
+    "action": "DELETION_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "b935bd07-eb09-4c50-b0de-e9eb0813fd8c",
+    "details": "Attempted delete on benchmark inventory. Prohibited by policy.",
+    "status": "BLOCKED",
+    "id": "3eca8a18-7d16-4eaf-9a32-d81b6d0ffd99",
+    "timestamp": "2026-11-12T05:18:37.956Z"
+  },
+  {
+    "actorId": "19101269",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "b935bd07-eb09-4c50-b0de-e9eb0813fd8c",
+    "details": {
+      "source": "benchmark",
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "4fc7e6f5-63e8-48ad-b579-93633c314e24",
+    "timestamp": "2026-11-12T05:18:37.948Z"
+  },
+  {
+    "actorId": "Rohan Raj Singh (19101020, Employee)",
+    "actorRole": "Admin",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "c3e93b9b-3823-4fba-a5da-6dfa4d9e3e7f",
+    "details": {
+      "itemName": "Tecno Camon 30 Ultra 5G",
+      "itemId": "358901100000501",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163",
+      "returnedBy": "Harshit Bhatnagar",
+      "returnedTo": "Rohan Raj Singh (19101020, Employee)",
+      "returnLocation": "Benchmark Lab",
+      "returnCondition": "Good",
+      "returnedAt": "2026-11-12"
+    },
+    "status": "SUCCESS",
+    "id": "d7d0a671-b4f0-4109-b4ee-77052d79d2a3",
+    "timestamp": "2026-11-12T05:18:37.923Z"
+  },
+  {
+    "actorId": "Rohan Raj Singh (19101020)",
+    "actorRole": "Employee",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "c3e93b9b-3823-4fba-a5da-6dfa4d9e3e7f",
+    "details": {
+      "itemName": "Tecno Camon 30 Ultra 5G",
+      "itemId": "358901100000501",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163",
+      "assignedFrom": "Benchmark Lab Pool",
+      "assignedBy": "Rohan Raj Singh (19101020)"
+    },
+    "status": "SUCCESS",
+    "id": "83e0d131-fffa-4c0d-a691-5b62fff473f4",
+    "timestamp": "2026-11-12T05:18:37.896Z"
+  },
+  {
+    "actorId": "19101020",
+    "actorRole": "Employee",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "b935bd07-eb09-4c50-b0de-e9eb0813fd8c",
+    "details": {
+      "source": "benchmark",
+      "brand": "Tecno",
+      "deviceModel": "Camon 30 Ultra 5G",
+      "imei1": "358901100000501",
+      "vcId": "BM-VC-2026-501",
+      "owner": "Rohan Raj Singh (19101020)"
+    },
+    "status": "SUCCESS",
+    "id": "c909c051-a0aa-4385-b243-fad788f14a0e",
+    "timestamp": "2026-11-12T05:18:37.856Z"
+  },
+  {
+    "actorId": "19101269",
+    "actorName": "Vinod Kundra",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "BENCHMARK_CONTROLLER",
+    "details": {
+      "action": "Benchmark Controller Assigned",
+      "previousController": "None",
+      "newController": "Rohan Raj Singh (19101020, Employee)"
+    },
+    "status": "SUCCESS",
+    "id": "143b5714-7f41-4d21-a1ba-a8a939045a80",
+    "timestamp": "2026-11-12T05:18:37.838Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "488b52c6-8341-4e5a-9f43-7f1427b14c1f",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "8a950f99-7f85-4c03-af7e-fcf243fd78d7",
+    "timestamp": "2026-11-12T05:18:36.990Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "f8970588-0ad1-4252-bd22-ead04a6e45cc",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "623456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "a83928e9-3617-4d61-8903-0394129e9c6e",
+    "timestamp": "2026-11-12T05:18:36.988Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "488b52c6-8341-4e5a-9f43-7f1427b14c1f",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "db98986b-50d8-4c2b-bfb3-54e91a5e0935",
+    "timestamp": "2026-11-12T05:18:36.982Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "488b52c6-8341-4e5a-9f43-7f1427b14c1f",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "523456789012345",
+      "owner": "Mohd.Shane Alam (19100009)"
+    },
+    "status": "SUCCESS",
+    "id": "71c0f78e-896e-4387-b9a4-2724705263b8",
+    "timestamp": "2026-11-12T05:18:36.981Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "VC-SPARK-001",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "cd6a463a-6e87-4e72-bd5c-dc76b24447a3",
+    "timestamp": "2026-11-12T05:18:36.978Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "d4071999-e3e4-45d0-829a-848196eaea04",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "7bb9877e-7811-4d50-925d-0710aaf4c362",
+    "timestamp": "2026-11-12T05:18:36.972Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "aed2f46b-7dc6-43f2-a84b-2f55d0365756",
+    "timestamp": "2026-11-12T05:18:36.967Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "4a2d9747-3efa-4d77-a5a6-fcae3d5d4a2a",
+    "timestamp": "2026-11-12T05:18:36.965Z"
+  },
+  {
+    "actorId": "19101269",
+    "actorName": "Vinod Kundra",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "BENCHMARK_CONTROLLER",
+    "details": {
+      "action": "Benchmark Controller Revoked",
+      "previousController": "Rohan Raj Singh (19101020)"
+    },
+    "status": "SUCCESS",
+    "id": "431f85be-349d-428d-8855-97f8e6cd56df",
+    "timestamp": "2026-11-12T05:18:06.176Z"
+  },
+  {
+    "actorId": "19101269",
+    "actorRole": "Admin",
+    "action": "DELETION_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "b0d3a80e-6b5e-487c-82c2-b15f3c81b544",
+    "details": "Attempted delete on benchmark inventory. Prohibited by policy.",
+    "status": "BLOCKED",
+    "id": "5a5f5b0f-5740-468e-8d9e-2a9168fc730e",
+    "timestamp": "2026-11-12T05:18:06.171Z"
+  },
+  {
+    "actorId": "19101269",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "b0d3a80e-6b5e-487c-82c2-b15f3c81b544",
+    "details": {
+      "source": "benchmark",
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "b3664516-80af-4061-96f1-f836ba3469fe",
+    "timestamp": "2026-11-12T05:18:06.166Z"
+  },
+  {
+    "actorId": "Rohan Raj Singh (19101020, Employee)",
+    "actorRole": "Admin",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "04d770b3-94e6-44aa-af83-94709e458b97",
+    "details": {
+      "itemName": "Tecno Camon 30 Ultra 5G",
+      "itemId": "358901100000501",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163",
+      "returnedBy": "Harshit Bhatnagar",
+      "returnedTo": "Rohan Raj Singh (19101020, Employee)",
+      "returnLocation": "Benchmark Lab",
+      "returnCondition": "Good",
+      "returnedAt": "2026-11-12"
+    },
+    "status": "SUCCESS",
+    "id": "4aee37e3-1d54-4522-be2b-e6c4b063740d",
+    "timestamp": "2026-11-12T05:18:06.151Z"
+  },
+  {
+    "actorId": "Rohan Raj Singh (19101020)",
+    "actorRole": "Employee",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "04d770b3-94e6-44aa-af83-94709e458b97",
+    "details": {
+      "itemName": "Tecno Camon 30 Ultra 5G",
+      "itemId": "358901100000501",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163",
+      "assignedFrom": "Benchmark Lab Pool",
+      "assignedBy": "Rohan Raj Singh (19101020)"
+    },
+    "status": "SUCCESS",
+    "id": "9a50a010-1647-478e-bc35-7c0adf194477",
+    "timestamp": "2026-11-12T05:18:06.134Z"
+  },
+  {
+    "actorId": "19101020",
+    "actorRole": "Employee",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "b0d3a80e-6b5e-487c-82c2-b15f3c81b544",
+    "details": {
+      "source": "benchmark",
+      "brand": "Tecno",
+      "deviceModel": "Camon 30 Ultra 5G",
+      "imei1": "358901100000501",
+      "vcId": "BM-VC-2026-501",
+      "owner": "Rohan Raj Singh (19101020)"
+    },
+    "status": "SUCCESS",
+    "id": "0ab8a1de-1499-477c-99b0-ecff95c92d2c",
+    "timestamp": "2026-11-12T05:18:06.112Z"
+  },
+  {
+    "actorId": "19101269",
+    "actorName": "Vinod Kundra",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "BENCHMARK_CONTROLLER",
+    "details": {
+      "action": "Benchmark Controller Assigned",
+      "previousController": "None",
+      "newController": "Rohan Raj Singh (19101020, Employee)"
+    },
+    "status": "SUCCESS",
+    "id": "73356939-bda3-4dd3-8e8b-8b2a71bd5d10",
+    "timestamp": "2026-11-12T05:18:06.100Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "59269e11-b5f3-41f1-91b4-ed78346dae90",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "d591c28f-a7a8-4a50-a630-9a63750330e1",
+    "timestamp": "2026-11-12T05:15:12.497Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "59269e11-b5f3-41f1-91b4-ed78346dae90",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "90dd957c-7c1a-429f-a7e4-42daf14f6290",
+    "timestamp": "2026-11-12T05:15:12.479Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "59269e11-b5f3-41f1-91b4-ed78346dae90",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "40e70823-0e79-4e1e-a0c1-7c4fe9106bad",
+    "timestamp": "2026-11-12T05:15:12.416Z"
+  },
+  {
+    "actorId": "19101269",
+    "actorRole": "Admin",
+    "action": "DELETION_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "6db4febb-f254-451a-904c-8daff1242ac7",
+    "details": "Attempted delete on benchmark inventory. Prohibited by policy.",
+    "status": "BLOCKED",
+    "id": "88d542ee-742e-4c19-811d-59b91e67b49a",
+    "timestamp": "2026-11-12T05:14:11.821Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "6db4febb-f254-451a-904c-8daff1242ac7",
+    "details": {
+      "source": "benchmark",
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "e5dda96c-6421-4977-af9c-3083d622ec25",
+    "timestamp": "2026-11-12T05:14:11.808Z"
+  },
+  {
+    "actorId": "Rohan Raj Singh (19101020)",
+    "actorRole": "Admin",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "a7ffdcbd-e11e-4936-8d5a-a1b40ba618eb",
+    "details": {
+      "itemName": "Tecno Camon 30 Ultra 5G",
+      "itemId": "358901100000101",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163",
+      "returnedBy": "Harshit Bhatnagar",
+      "returnedTo": "Rohan Raj Singh (19101020)",
+      "returnLocation": "Benchmark Lab",
+      "returnCondition": "Good",
+      "returnedAt": "2026-11-12"
+    },
+    "status": "SUCCESS",
+    "id": "2c4248f3-ecee-4e7a-a20e-677057b2aca8",
+    "timestamp": "2026-11-12T05:14:11.803Z"
+  },
+  {
+    "actorId": "benchmark-controller",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "6db4febb-f254-451a-904c-8daff1242ac7",
+    "details": {
+      "source": "benchmark",
+      "updatedFields": [
+        "owner",
+        "remarks"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "d43e4ecd-cd3c-402c-9cec-e96ac0cc8779",
+    "timestamp": "2026-11-12T05:14:11.787Z"
+  },
+  {
+    "actorId": "benchmark-controller",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "6db4febb-f254-451a-904c-8daff1242ac7",
+    "details": {
+      "source": "benchmark",
+      "brand": "Tecno",
+      "deviceModel": "Camon 30 Ultra 5G",
+      "imei1": "358901100000101",
+      "vcId": "BM-VC-TEST-001",
+      "owner": "Rohan Raj Singh (19101020)"
+    },
+    "status": "SUCCESS",
+    "id": "134f2ec6-f357-46b7-9192-ad6ba5e5f8f7",
+    "timestamp": "2026-11-12T05:14:11.779Z"
+  },
+  {
+    "actorId": "benchmark-controller",
+    "actorRole": "Admin",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "a7ffdcbd-e11e-4936-8d5a-a1b40ba618eb",
+    "details": {
+      "itemName": "Tecno Camon 30 Ultra 5G",
+      "itemId": "358901100000101",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163",
+      "assignedFrom": "Benchmark Pool (Benchmark Lab)",
+      "assignedBy": "benchmark-controller"
+    },
+    "status": "SUCCESS",
+    "id": "18f12921-be91-4de7-8915-c2cedceba8e2",
+    "timestamp": "2026-11-12T05:14:11.771Z"
+  },
+  {
+    "actorId": "19101020",
+    "actorRole": "Employee",
+    "action": "INVENTORY_BULK_UPLOAD",
+    "entityType": "BulkUpload",
+    "entityId": "BENCHMARK_BATCH_1794460451761",
+    "details": {
+      "source": "benchmark",
+      "totalRows": 5,
+      "importedCount": 1,
+      "blockedCount": 4
+    },
+    "status": "FLAGGED",
+    "id": "6f3c0868-3eb9-415e-87e0-6685926f89e0",
+    "timestamp": "2026-11-12T05:14:11.762Z"
+  },
+  {
+    "actorId": "19101020",
+    "actorRole": "Employee",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "BulkUpload",
+    "entityId": "358901100000204",
+    "details": {
+      "source": "benchmark",
+      "row": 5,
+      "reason": "Row 5: Duplicate IMEI1 '358901100000204' already exists in benchmark inventory or earlier in batch.",
+      "duplicateType": "IMEI1"
+    },
+    "status": "BLOCKED",
+    "id": "e6f797be-36de-41ca-93fc-c0a2b1ab6e83",
+    "timestamp": "2026-11-12T05:14:11.759Z"
+  },
+  {
+    "actorId": "19101020",
+    "actorRole": "Employee",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "2901dbf3-01cc-4d65-a0d0-16f71e9360ed",
+    "details": {
+      "itemName": "Tecno Zero 40 5G",
+      "itemId": "358901100000204",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163",
+      "assignedFrom": "Benchmark Inventory (Benchmark Lab)",
+      "assignedBy": "19101020"
+    },
+    "status": "SUCCESS",
+    "id": "dbc20ba3-5472-45cb-95eb-5872132729f9",
+    "timestamp": "2026-11-12T05:14:11.748Z"
+  },
+  {
+    "actorId": "19101020",
+    "actorRole": "Employee",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "BulkUpload",
+    "entityId": "358901100000101",
+    "details": {
+      "source": "benchmark",
+      "row": 3,
+      "reason": "Row 3: Duplicate IMEI1 '358901100000101' already exists in benchmark inventory or earlier in batch.",
+      "duplicateType": "IMEI1"
+    },
+    "status": "BLOCKED",
+    "id": "1d18e3e3-2244-4655-ba29-ec66f9de9692",
+    "timestamp": "2026-11-12T05:14:11.744Z"
+  },
+  {
+    "actorId": "19101020",
+    "actorRole": "Employee",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "BulkUpload",
+    "entityId": "BM-VC-TEST-001",
+    "details": {
+      "source": "benchmark",
+      "row": 2,
+      "reason": "Row 2: Duplicate VC ID 'BM-VC-TEST-001' already exists in benchmark inventory or earlier in batch.",
+      "duplicateType": "VC_ID"
+    },
+    "status": "BLOCKED",
+    "id": "7d9a9cb3-461e-4862-87d3-570cb158622c",
+    "timestamp": "2026-11-12T05:14:11.741Z"
+  },
+  {
+    "actorId": "19101020",
+    "actorRole": "Employee",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "BulkUpload",
+    "entityId": "358901100000201",
+    "details": {
+      "source": "benchmark",
+      "row": 1,
+      "reason": "Row 1: VC ID is mandatory. Missing or empty VC ID."
+    },
+    "status": "BLOCKED",
+    "id": "05f72f51-16ef-4efe-b2f2-462fce6ead40",
+    "timestamp": "2026-11-12T05:14:11.739Z"
+  },
+  {
+    "actorId": "benchmark-controller",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "feeaab79-8477-4c6a-824f-2f65ff0a57bc",
+    "details": {
+      "source": "benchmark",
+      "brand": "Tecno",
+      "deviceModel": "Camon 30 Ultra 5G",
+      "imei1": "358901100000101",
+      "vcId": "BM-VC-TEST-001",
+      "owner": "Benchmark Lab"
+    },
+    "status": "SUCCESS",
+    "id": "60183d72-2eee-4837-ae8c-cc019568b9ad",
+    "timestamp": "2026-11-12T05:14:11.731Z"
+  },
+  {
+    "actorId": "19101020",
+    "actorRole": "Employee",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "15b62dd0-755d-4cd4-8802-c4fc63efb59e",
+    "details": {
+      "source": "benchmark",
+      "brand": "Tecno",
+      "deviceModel": "GT 20 Pro 5G",
+      "imei1": "358901100000102",
+      "vcId": "BM-VC-TEST-002",
+      "owner": "Rohan Raj Singh (19101020)"
+    },
+    "status": "SUCCESS",
+    "id": "5763a690-2454-40d1-b3f4-c2d02d55a87d",
+    "timestamp": "2026-11-12T05:14:11.723Z"
+  },
+  {
+    "actorId": "Rohan Raj Singh (19101020)",
+    "actorRole": "Employee",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "4ba262e9-73d4-4562-83fb-6a44e1399d09",
+    "details": {
+      "itemName": "Tecno GT 20 Pro 5G",
+      "itemId": "358901100000102",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163",
+      "assignedFrom": "Benchmark Pool (Benchmark Lab)",
+      "assignedBy": "Rohan Raj Singh (19101020)"
+    },
+    "status": "SUCCESS",
+    "id": "db0398cd-70d7-4fa1-9e05-e32e19ad6b24",
+    "timestamp": "2026-11-12T05:14:11.712Z"
+  },
+  {
+    "actorId": "19101020",
+    "actorRole": "Employee",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "2d26952d-41af-4dd0-809d-9fe07d433b32",
+    "details": {
+      "source": "benchmark",
+      "brand": "Tecno",
+      "deviceModel": "Camon 30 Ultra 5G",
+      "imei1": "358901100000101",
+      "vcId": "BM-VC-TEST-001",
+      "owner": "Rohan Raj Singh (19101020)"
+    },
+    "status": "SUCCESS",
+    "id": "06b5c5c6-5c23-4b1c-a4f3-c8647f2c0093",
+    "timestamp": "2026-11-12T05:14:11.694Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "87a8e1a5-c7eb-4909-acd7-bd2a0f0dde34",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "98f050e1-fa4d-4275-906f-0283adb15c48",
+    "timestamp": "2026-11-03T11:35:31.054Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "87a8e1a5-c7eb-4909-acd7-bd2a0f0dde34",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "912fbb48-4361-4d39-a590-c16853eee2ef",
+    "timestamp": "2026-11-03T11:35:31.038Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "87a8e1a5-c7eb-4909-acd7-bd2a0f0dde34",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "f7cfab18-5495-4c48-843b-6c29d274338a",
+    "timestamp": "2026-11-03T11:35:30.993Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "c814c275-bd06-4641-94e4-412e07f51b3a",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "b97ab668-7289-47f2-a027-5ee6665fd9be",
+    "timestamp": "2026-11-03T11:35:29.872Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "00de7fd0-1498-4d54-b736-4585b74ecf90",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "623456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "d35e5ed8-1811-480a-97e4-5d8a8cc12608",
+    "timestamp": "2026-11-03T11:35:29.869Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "c814c275-bd06-4641-94e4-412e07f51b3a",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "6159df87-2579-4e11-84c6-496ca82a51c1",
+    "timestamp": "2026-11-03T11:35:29.861Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "c814c275-bd06-4641-94e4-412e07f51b3a",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "523456789012345",
+      "owner": "Mohd.Shane Alam (19100009)"
+    },
+    "status": "SUCCESS",
+    "id": "13ffaff4-44f3-405a-98a1-5cc0d96ad6c8",
+    "timestamp": "2026-11-03T11:35:29.859Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "VC-SPARK-001",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "eefdf28d-bfa0-401f-b1e0-428bda1c9835",
+    "timestamp": "2026-11-03T11:35:29.854Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "24609258-8707-4f20-98f0-66ff0b97fad5",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "2943bf7f-927f-41e9-a919-bd1df0d92a51",
+    "timestamp": "2026-11-03T11:35:29.848Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "219f228b-8e50-4545-9f62-581e99404a91",
+    "timestamp": "2026-11-03T11:35:29.842Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "23b7ee28-5efd-43fe-b0c0-4b70c3d7b1d8",
+    "timestamp": "2026-11-03T11:35:29.839Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "d78bc230-0013-4170-a17b-35be5c0404be",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "208b7fa4-bb0e-4071-82fe-74436e74fa1e",
+    "timestamp": "2026-11-03T11:07:49.729Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "d78bc230-0013-4170-a17b-35be5c0404be",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "1357b1dd-35b1-4af7-a6fd-ef57e80abcba",
+    "timestamp": "2026-11-03T11:07:49.703Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "d78bc230-0013-4170-a17b-35be5c0404be",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "2fc0ba59-f7ad-4fc3-aad8-511f8b29c798",
+    "timestamp": "2026-11-03T11:07:49.652Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "d6145042-d03d-472a-b023-49d9e266dd8c",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "83b7ca43-b3a9-4baa-a04a-a8af9c9d2f9d",
+    "timestamp": "2026-11-03T11:07:48.562Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "4a13d120-0824-485e-83f3-058b18821fab",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "623456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "38cc0d6d-5434-402a-974f-7b3c8925184a",
+    "timestamp": "2026-11-03T11:07:48.559Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "d6145042-d03d-472a-b023-49d9e266dd8c",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "67d411b1-f730-4b61-8d21-0b3d37a5ba17",
+    "timestamp": "2026-11-03T11:07:48.547Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "d6145042-d03d-472a-b023-49d9e266dd8c",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "523456789012345",
+      "owner": "Mohd.Shane Alam (19100009)"
+    },
+    "status": "SUCCESS",
+    "id": "32b66159-d31d-4412-8ffa-a203ef3fe3c8",
+    "timestamp": "2026-11-03T11:07:48.542Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "VC-SPARK-001",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "0668b2de-1421-4a6e-8e93-bce053290443",
+    "timestamp": "2026-11-03T11:07:48.536Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "14050b75-4ae2-46a3-b897-f5c826393b0d",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "bf3249be-4747-4cee-ad86-951568908f35",
+    "timestamp": "2026-11-03T11:07:48.531Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "7080ec8c-e37f-4fe4-a7e6-2b40be819a44",
+    "timestamp": "2026-11-03T11:07:48.524Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "9e682c4c-457b-4545-8a4a-7630e66fe7ad",
+    "timestamp": "2026-11-03T11:07:48.521Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "ce530981-3cc7-4497-9ccb-485aa4188fa1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "b0a58b6a-fcab-44dd-b458-97bd374b0ced",
+    "timestamp": "2026-11-03T11:06:57.297Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "ce530981-3cc7-4497-9ccb-485aa4188fa1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "6172ba30-2130-4bd7-9395-7b1a020ee9fb",
+    "timestamp": "2026-11-03T11:06:57.283Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "ce530981-3cc7-4497-9ccb-485aa4188fa1",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "c23bd95a-9b61-4b82-86d4-4ef7c33710b1",
+    "timestamp": "2026-11-03T11:06:57.238Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "623456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with VC ID 'VC-SPARK-001' already exists.",
+      "imei1": "623456789012345",
+      "imei2": "",
+      "vcId": "VC-SPARK-001",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "7c110c20-3a1b-460e-9223-341d38a426fd",
+    "timestamp": "2026-11-03T11:06:56.291Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "888abaac-e5ff-438c-9224-6761b8333648",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "a73db9e5-3e33-47dc-9935-52d195fbabaa",
+    "timestamp": "2026-11-03T11:06:56.283Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "888abaac-e5ff-438c-9224-6761b8333648",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "523456789012345",
+      "owner": "Mohd.Shane Alam (19100009)"
+    },
+    "status": "SUCCESS",
+    "id": "d517fb13-1c2d-42fc-bc6b-7aab987cbfd7",
+    "timestamp": "2026-11-03T11:06:56.279Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "VC-SPARK-001",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "97fb03eb-5b86-41b4-9731-b2c61640b78a",
+    "timestamp": "2026-11-03T11:06:56.274Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "a5ca1223-723b-44b2-a8b9-2972d474cca2",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "64a27e91-f16e-4639-8f67-c5e5aea22321",
+    "timestamp": "2026-11-03T11:06:56.267Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "b2d34f4e-4430-4da6-8545-d9347898184b",
+    "timestamp": "2026-11-03T11:06:56.261Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "5fb4ded9-ab64-40d0-bdd7-0bd0b004c639",
+    "timestamp": "2026-11-03T11:06:56.257Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "def6f422-09de-45c7-90ad-109a3cd1a81f",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "b9b38096-1e19-41f9-a630-f6d19073b5d0",
+    "timestamp": "2026-11-03T10:46:18.398Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "def6f422-09de-45c7-90ad-109a3cd1a81f",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "56c016fd-7d8e-452f-904c-f990d99d82a3",
+    "timestamp": "2026-11-03T10:46:18.375Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "def6f422-09de-45c7-90ad-109a3cd1a81f",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "b4deca2f-dab3-4e12-86fb-e4a9056acc67",
+    "timestamp": "2026-11-03T10:46:18.301Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "ec0dfe36-182e-4adc-b141-182f30b37ea3",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "9299a172-d42b-4b25-999c-9373ed4a33e8",
+    "timestamp": "2026-11-03T10:46:16.918Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "8208f984-af90-4d16-abda-345d88368db4",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "623456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "f7e1573a-ae2e-4bf3-89b0-8a39266cec60",
+    "timestamp": "2026-11-03T10:46:16.913Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "ec0dfe36-182e-4adc-b141-182f30b37ea3",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "c3bc9ee1-8e41-4f76-8f4a-bc4aeae38db5",
+    "timestamp": "2026-11-03T10:46:16.904Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "ec0dfe36-182e-4adc-b141-182f30b37ea3",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "523456789012345",
+      "owner": "Mohd.Shane Alam (19100009)"
+    },
+    "status": "SUCCESS",
+    "id": "7a606aea-f4b0-49cb-80ea-eb430aa90b1b",
+    "timestamp": "2026-11-03T10:46:16.900Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "fc2f5970-f2d3-48eb-9876-8616e5832b12",
+    "timestamp": "2026-11-03T10:46:16.895Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "85dd76f1-43de-403f-96d3-1d5143c43897",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "bdeef24a-8dde-4fff-afe1-790a725bf1cb",
+    "timestamp": "2026-11-03T10:46:16.887Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "f699b9da-ac84-40e0-923d-de8171591fd6",
+    "timestamp": "2026-11-03T10:46:16.873Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "621848ee-195d-42f2-9a9e-af7e461be794",
+    "timestamp": "2026-11-03T10:46:16.868Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "1e36b856-b58c-4c96-949f-befe51510e1c",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "48210933-00f8-440f-9092-9f6b37b182cb",
+    "timestamp": "2026-11-03T10:45:46.304Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "1e36b856-b58c-4c96-949f-befe51510e1c",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "f5385a32-64a0-4691-84e1-26c8afd9f3a9",
+    "timestamp": "2026-11-03T10:45:46.282Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "1e36b856-b58c-4c96-949f-befe51510e1c",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "8cd13055-ebd7-411f-953e-9c96e84a8544",
+    "timestamp": "2026-11-03T10:45:46.210Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "90eee30c-337e-48ff-8c68-4f3a6724422b",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "893bbd52-b867-479e-a7cd-00e92d192f9c",
+    "timestamp": "2026-11-03T10:45:44.956Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "0d65dddf-6046-4e39-bf95-49f170eb05b2",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "623456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "96f3e915-30df-4c91-81e5-2b77818b2fca",
+    "timestamp": "2026-11-03T10:45:44.953Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "90eee30c-337e-48ff-8c68-4f3a6724422b",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "9342effd-367d-40bd-9dc2-48dc00520c45",
+    "timestamp": "2026-11-03T10:45:44.943Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "90eee30c-337e-48ff-8c68-4f3a6724422b",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "523456789012345",
+      "owner": "Mohd.Shane Alam (19100009)"
+    },
+    "status": "SUCCESS",
+    "id": "590ef924-ad56-4827-919a-d8ef5810b4d3",
+    "timestamp": "2026-11-03T10:45:44.938Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "853d0e65-0e73-43df-8f65-e8b4eedfb995",
+    "timestamp": "2026-11-03T10:45:44.931Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "c1a65ff4-8c36-4381-bbdf-f8984a573c20",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "6d8c8195-3716-483f-a8b1-369cb61ff089",
+    "timestamp": "2026-11-03T10:45:44.923Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "d1fa0247-45d3-490d-9c87-9d5e4617274d",
+    "timestamp": "2026-11-03T10:45:44.916Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "7f1a3b83-b6b7-4938-bba6-9483f062b67b",
+    "timestamp": "2026-11-03T10:45:44.912Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "2a215a2e-1f89-4143-9990-2c68a1d52151",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "bafe7470-bc44-4b83-a9ca-97dfa0c1a735",
+    "timestamp": "2026-11-03T10:42:42.803Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "2a215a2e-1f89-4143-9990-2c68a1d52151",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "47aabe73-034b-4772-9e61-a52de6586ea8",
+    "timestamp": "2026-11-03T10:42:42.785Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "2a215a2e-1f89-4143-9990-2c68a1d52151",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "34b1fb06-2e71-4d2a-898a-080888dadadb",
+    "timestamp": "2026-11-03T10:42:42.727Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "022c850c-9b1e-4997-8376-d651eadb26a3",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "5e7a78d2-d73e-42f0-8171-c4010292f3d4",
+    "timestamp": "2026-11-03T10:42:41.669Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "b66e2b0d-4128-42d7-a940-9d1f8a7cf98d",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "623456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "1759a0ff-17ca-44bf-ad55-63bbd6d142da",
+    "timestamp": "2026-11-03T10:42:41.667Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "022c850c-9b1e-4997-8376-d651eadb26a3",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "6e4b2f13-d99f-4858-94b9-f11ed56ae5c4",
+    "timestamp": "2026-11-03T10:42:41.661Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "022c850c-9b1e-4997-8376-d651eadb26a3",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "523456789012345",
+      "owner": "Mohd.Shane Alam (19100009)"
+    },
+    "status": "SUCCESS",
+    "id": "8723f30b-efba-4dc7-95a9-27ac30f53075",
+    "timestamp": "2026-11-03T10:42:41.658Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "aaf925f3-0099-4b71-a1ab-77334e01cdd9",
+    "timestamp": "2026-11-03T10:42:41.654Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "b9d6d7a8-9b9e-46bb-9a7f-f675b9c6c294",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "5118f511-3733-4577-8839-cb3e12c3bd65",
+    "timestamp": "2026-11-03T10:42:41.648Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "0fc91d38-a8a6-43f2-a7ae-e0e46a78e656",
+    "timestamp": "2026-11-03T10:42:41.643Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "b1ca69d5-495b-40eb-9aa2-72147376cd1a",
+    "timestamp": "2026-11-03T10:42:41.640Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "440d55b9-9268-4e4b-bc32-332ea32710bc",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "52a4b77c-e5e1-4c93-8842-3dce93ff193e",
+    "timestamp": "2026-11-03T10:30:59.118Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "440d55b9-9268-4e4b-bc32-332ea32710bc",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "aaaebd65-e5dd-446a-b090-6d2b8f56faeb",
+    "timestamp": "2026-11-03T10:30:59.086Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "440d55b9-9268-4e4b-bc32-332ea32710bc",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "5748019a-eda3-4e48-9b08-95542ef1dbf3",
+    "timestamp": "2026-11-03T10:30:59.006Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "e460dc35-9693-4ef4-b49a-5f528bc1552a",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "a6b56caa-3ecc-4ad0-b741-68fe4d1982b8",
+    "timestamp": "2026-11-03T10:30:57.773Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "d6f68da9-2f22-4acf-9c5e-fc9bc6fa5889",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "623456789012345",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "3992cc4e-407f-4a60-8d30-7eb6bca18c5f",
+    "timestamp": "2026-11-03T10:30:57.770Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "e460dc35-9693-4ef4-b49a-5f528bc1552a",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "22e852f9-e1f3-42b5-9fcb-853a97d6c0b6",
+    "timestamp": "2026-11-03T10:30:57.761Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "e460dc35-9693-4ef4-b49a-5f528bc1552a",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "523456789012345",
+      "owner": "Mohd.Shane Alam (19100009)"
+    },
+    "status": "SUCCESS",
+    "id": "5647363c-0ab7-4d2c-b34d-7bc33281250c",
+    "timestamp": "2026-11-03T10:30:57.758Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "6477d8eb-00a8-42e3-8a38-ecbfb2fc3920",
+    "timestamp": "2026-11-03T10:30:57.752Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "264468fa-d2b6-470b-9ff2-118b68e2d86d",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "aab229ba-6a5d-4298-a990-95add352a677",
+    "timestamp": "2026-11-03T10:30:57.746Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "4587670e-53af-4bc4-aa1d-d9057b1ddd75",
+    "timestamp": "2026-11-03T10:30:57.739Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "344b5c24-965b-4c18-bfde-90f85fb9a2ff",
+    "timestamp": "2026-11-03T10:30:57.736Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "1e703ec1-1f22-4f31-b6ec-65cbe06d7a63",
+    "details": {
+      "brand": "Tecno",
+      "deviceModel": "40 power pro max",
+      "imei1": "156178948512302",
+      "owner": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "90fa3969-9f96-42e4-a8b1-1fc9645d934b",
+    "timestamp": "2026-11-03T10:09:16.422Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "28a24c1c-25a3-4acb-a31b-3b83702eb93b",
+    "details": {
+      "brand": "Tecno",
+      "deviceModel": "48655292",
+      "imei1": "421017854123285",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "1a6aeda1-5fc8-4a48-a406-4e019199219e",
+    "timestamp": "2026-11-03T09:49:07.112Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "2c0afcfa-f5e1-41b1-9bcd-5526ae2fd26a",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "67104109-e1c0-4ff9-a8da-fdc0eac4e4ce",
+    "timestamp": "2026-11-03T07:21:41.332Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "2c0afcfa-f5e1-41b1-9bcd-5526ae2fd26a",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "4fe9cc65-fd96-4581-8217-7ce3eca36221",
+    "timestamp": "2026-11-03T07:21:41.318Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "2c0afcfa-f5e1-41b1-9bcd-5526ae2fd26a",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "499bd05e-1aab-4126-8d8b-616ec6e00dbe",
+    "timestamp": "2026-11-03T07:21:41.259Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "6e70e821-b680-43be-b076-a7afdc730728",
+    "details": {
+      "updatedFields": [
+        "owner"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "00acf790-9359-40bb-849d-a90e7906ef1a",
+    "timestamp": "2026-11-03T07:21:40.197Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "6e70e821-b680-43be-b076-a7afdc730728",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "523456789012345",
+      "owner": "Mohd.Shane Alam (19100009)"
+    },
+    "status": "SUCCESS",
+    "id": "135b881e-d5be-4c47-88d5-872ec559e43a",
+    "timestamp": "2026-11-03T07:21:40.195Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "0eb35b48-daa3-4cb3-ac6c-4db60132b1eb",
+    "timestamp": "2026-11-03T07:21:40.191Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "b8830461-9a90-4b7e-a8a8-4902d43db78e",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "85529c87-54a8-4bcd-bd16-4b898ffa1c0e",
+    "timestamp": "2026-11-03T07:21:40.185Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "d9ba0259-f4a4-4ef0-9d4f-bc5c051365b8",
+    "timestamp": "2026-11-03T07:21:40.179Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "1bc2e0a0-13f2-42f6-87de-5d85243f248c",
+    "timestamp": "2026-11-03T07:21:40.177Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "27915d13-f8ed-4e1b-8ae4-591d9b2852be",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "2ec32e44-6267-46de-9a53-3a2e7c2b493c",
+    "timestamp": "2026-11-03T07:21:03.008Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "27915d13-f8ed-4e1b-8ae4-591d9b2852be",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "75e2790f-b04b-447e-9782-c74ba3e3929a",
+    "timestamp": "2026-11-03T07:21:02.991Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "27915d13-f8ed-4e1b-8ae4-591d9b2852be",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "b0f12f9d-c684-4a99-8d9a-e0ccbe99b0a0",
+    "timestamp": "2026-11-03T07:21:02.924Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "c962034a-a68f-4ae8-a594-b062b2280e93",
+    "timestamp": "2026-11-03T07:21:01.800Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "5005d53e-60f1-422d-8ed3-edd94d6e8549",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345",
+      "owner": "IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "dd407f7f-61d3-419f-ad02-4ab1b3e193ff",
+    "timestamp": "2026-11-03T07:21:01.793Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "e10279e1-5159-4e43-b19c-99ba3c2e17ab",
+    "timestamp": "2026-11-03T07:21:01.785Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "0e5f7933-8f59-4cb9-a4f0-f1aefed973c0",
+    "timestamp": "2026-11-03T07:21:01.781Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "ada1f3fd-8da8-4079-9b18-07b4ebd515ff",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "d22e004e-679b-44cf-a6f4-c81e3a3e36d6",
+    "timestamp": "2026-11-03T07:00:15.790Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "ada1f3fd-8da8-4079-9b18-07b4ebd515ff",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "157ec86e-b2b3-4be8-8c35-3f36f589ec3b",
+    "timestamp": "2026-11-03T07:00:15.772Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "ada1f3fd-8da8-4079-9b18-07b4ebd515ff",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "04181ea9-f9cc-4250-a66e-10979c791705",
+    "timestamp": "2026-11-03T07:00:15.696Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "3eb1c8dc-4442-43cb-9849-4f5a05371cf4",
+    "timestamp": "2026-11-03T07:00:14.438Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "8359524f-5a8e-4436-81a2-a3260b29d5e4",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "23739914-d6ec-4b4d-809e-2a4145309c03",
+    "timestamp": "2026-11-03T07:00:14.432Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "96e4a988-0e1d-4dac-bed9-e63059fffe19",
+    "timestamp": "2026-11-03T07:00:14.424Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "f38972ea-004c-48f9-9a2a-a4c4dd1f8757",
+    "timestamp": "2026-11-03T07:00:14.421Z"
+  },
+  {
+    "actorId": "Vinod Kundra (19101269)",
+    "actorRole": "Admin",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "536da9bf-898e-4e8c-879b-c0ba85efa159",
+    "details": {
+      "itemName": "Infinix Note 40 Pro",
+      "itemId": "867123456789012",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "harshit.bhatnagar@transsion.com",
+      "assignedFrom": "IT Stock",
+      "assignedBy": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "478d45eb-9684-40b9-b479-3ae920463482",
+    "timestamp": "2026-11-03T06:19:54.815Z"
+  },
+  {
+    "actorId": "Vinod Kundra (Admin)",
+    "actorRole": "Admin",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "6d9f9ecb-3153-4f64-b9b1-0105e6b89284",
+    "details": {
+      "itemName": "Tecno Power",
+      "itemId": "545120445214841",
+      "employeeName": "Rohan Raj Singh",
+      "employeeId": "rohan.singh@transsion.com",
+      "returnedBy": "Rohan Raj Singh",
+      "returnedTo": "Vinod Kundra (Admin)",
+      "returnLocation": "WH-1 (Main Hub)",
+      "returnCondition": "Good / Pristine Condition",
+      "returnedAt": "2026-10-30",
+      "notes": "Returned after benchmark test completion"
+    },
+    "status": "SUCCESS",
+    "id": "7ac6396e-8d31-4d09-83ec-96d09cbc6d5b",
+    "timestamp": "2026-11-03T06:18:16.808Z"
+  },
+  {
+    "actorId": "Kamal Sharma (19103905)",
+    "actorRole": "TL",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "6d9f9ecb-3153-4f64-b9b1-0105e6b89284",
+    "details": {
+      "itemName": "Tecno Power",
+      "itemId": "545120445214841",
+      "employeeName": "Rohan Raj Singh",
+      "employeeId": "rohan.singh@transsion.com",
+      "assignedFrom": "WH-1 (Main Hub)",
+      "assignedBy": "Kamal Sharma (19103905)"
+    },
+    "status": "SUCCESS",
+    "id": "6b0b34ee-0821-461c-985d-461492fe5470",
+    "timestamp": "2026-11-03T06:18:09.962Z"
+  },
+  {
+    "actorId": "Vinod Kundra (Admin)",
+    "actorRole": "Admin",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "d9296e2b-6f97-41c6-a88a-aff97575a53a",
+    "details": {
+      "itemName": "Tecno Power",
+      "itemId": "545120445214841",
+      "employeeName": "Rohan Raj Singh",
+      "employeeId": "rohan.singh@transsion.com",
+      "returnedBy": "Rohan Raj Singh",
+      "returnedTo": "Vinod Kundra (Admin)",
+      "returnLocation": "WH-1 (Main Hub)",
+      "returnCondition": "Good / Pristine Condition",
+      "returnedAt": "2026-10-30",
+      "notes": "Returned after benchmark test completion"
+    },
+    "status": "SUCCESS",
+    "id": "150660fb-45ef-423a-839a-c8756d9af011",
+    "timestamp": "2026-11-03T06:15:40.402Z"
+  },
+  {
+    "actorId": "Kamal Sharma (19103905)",
+    "actorRole": "TL",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "d9296e2b-6f97-41c6-a88a-aff97575a53a",
+    "details": {
+      "itemName": "Tecno Power",
+      "itemId": "545120445214841",
+      "employeeName": "Rohan Raj Singh",
+      "employeeId": "rohan.singh@transsion.com",
+      "assignedFrom": "WH-1 (Main Hub)",
+      "assignedBy": "Kamal Sharma (19103905)"
+    },
+    "status": "SUCCESS",
+    "id": "884c50ea-64e1-4d77-a698-69da19bf3883",
+    "timestamp": "2026-11-03T06:15:33.172Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "78a8371e-b61c-4035-8fd2-8c143e8bc64e",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "f16cc2b8-789b-46bd-b03b-5ef03b8a0076",
+    "timestamp": "2026-11-03T06:05:02.951Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "78a8371e-b61c-4035-8fd2-8c143e8bc64e",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "2b3a3064-34ce-4237-a6b6-decbfd315e48",
+    "timestamp": "2026-11-03T06:05:02.933Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "78a8371e-b61c-4035-8fd2-8c143e8bc64e",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "a4412603-57eb-4c41-a47a-baf119dee476",
+    "timestamp": "2026-11-03T06:05:02.804Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "9332fca7-2495-4e18-9b49-2c8b8ff16c64",
+    "timestamp": "2026-11-03T06:05:01.684Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "c4d9fceb-7933-4048-b51f-129efc266e74",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "38230137-4c55-40a3-8ff7-a467205b5c7e",
+    "timestamp": "2026-11-03T06:05:01.677Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "6cad0c1e-e6b5-4056-9f71-e2915a82c214",
+    "timestamp": "2026-11-03T06:05:01.670Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "1e60477b-3f19-4720-bfe1-78f9332ca328",
+    "timestamp": "2026-11-03T06:05:01.667Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "732b40e1-a942-45e3-856b-3da18f3740b5",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "c04d3ecb-cfdf-4286-8bb3-e0ab2d83a1cf",
+    "timestamp": "2026-11-03T06:03:27.402Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "732b40e1-a942-45e3-856b-3da18f3740b5",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "506fee39-5703-4c11-ad0e-61216df67248",
+    "timestamp": "2026-11-03T06:03:27.374Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "732b40e1-a942-45e3-856b-3da18f3740b5",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "47dc7683-0ce5-4822-b64d-9da482af63c7",
+    "timestamp": "2026-11-03T06:03:27.266Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "acedbab5-fa58-49cf-907f-2a316a06b57f",
+    "timestamp": "2026-11-03T06:03:24.790Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "170480c3-5685-418c-ae99-ee72cbb137e1",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "2e1f2298-65f6-4092-b668-5f41b93b7844",
+    "timestamp": "2026-11-03T06:03:24.760Z"
+  },
+  {
+    "actorId": "Vinod Kundra (Admin)",
+    "actorRole": "Admin",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "096f77c6-3794-492c-9f36-cd2e1bf660f5",
+    "details": {
+      "itemName": "Tecno Power",
+      "itemId": "545120445214841",
+      "employeeName": "Rohan Raj Singh",
+      "employeeId": "rohan.singh@transsion.com",
+      "returnedBy": "Rohan Raj Singh",
+      "returnedTo": "Vinod Kundra (Admin)",
+      "returnLocation": "WH-1 (Main Hub)",
+      "returnCondition": "Good / Pristine Condition",
+      "returnedAt": "2026-10-30",
+      "notes": "Returned after benchmark test completion"
+    },
+    "status": "SUCCESS",
+    "id": "6b552782-2885-431d-b7e4-9ce1ea609369",
+    "timestamp": "2026-10-30T05:58:00.732Z"
+  },
+  {
+    "actorId": "Kamal Sharma (19103905)",
+    "actorRole": "TL",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "096f77c6-3794-492c-9f36-cd2e1bf660f5",
+    "details": {
+      "itemName": "Tecno Power",
+      "itemId": "545120445214841",
+      "employeeName": "Rohan Raj Singh",
+      "employeeId": "rohan.singh@transsion.com",
+      "assignedFrom": "WH-1 (Main Hub)",
+      "assignedBy": "Kamal Sharma (19103905)"
+    },
+    "status": "SUCCESS",
+    "id": "a85348bd-dbe4-46e7-8b10-bdbaaa03ce00",
+    "timestamp": "2026-10-30T05:57:56.183Z"
+  },
+  {
+    "actorId": "Vinod Kundra (Admin)",
+    "actorRole": "Admin",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "e2acdfd3-64da-4335-b4ed-48c9bc8ef88d",
+    "details": {
+      "itemName": "Tecno Power",
+      "itemId": "545120445214841",
+      "employeeName": "Rohan Raj Singh",
+      "employeeId": "rohan.singh@transsion.com",
+      "returnedBy": "Rohan Raj Singh",
+      "returnedTo": "Vinod Kundra (Admin)",
+      "returnLocation": "WH-1 (Main Hub)",
+      "returnCondition": "Good / Pristine Condition",
+      "returnedAt": "2026-10-30",
+      "notes": "Returned after benchmark test completion"
+    },
+    "status": "SUCCESS",
+    "id": "d8c8b055-e02e-4050-8a30-114d12d2112c",
+    "timestamp": "2026-10-30T05:57:00.314Z"
+  },
+  {
+    "actorId": "Kamal Sharma (19103905)",
+    "actorRole": "TL",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "e2acdfd3-64da-4335-b4ed-48c9bc8ef88d",
+    "details": {
+      "itemName": "Tecno Power",
+      "itemId": "545120445214841",
+      "employeeName": "Rohan Raj Singh",
+      "employeeId": "rohan.singh@transsion.com",
+      "assignedFrom": "WH-1 (Main Hub)",
+      "assignedBy": "Kamal Sharma (19103905)"
+    },
+    "status": "SUCCESS",
+    "id": "9f5a9064-cbab-49e0-983e-f31260fbdbf7",
+    "timestamp": "2026-10-30T05:56:52.585Z"
+  },
+  {
+    "actorId": "tl@company.com",
+    "actorRole": "TL",
+    "action": "REQUEST_APPROVED",
+    "entityType": "Request",
+    "entityId": "87381d3d-b698-4540-bf9f-084ef76b50b0",
+    "details": {
+      "status": "Approved",
+      "remarks": "Approved by Kamal Sharma (TL - VOC Team) for cross-team benchmarking",
+      "assignedDevice": "Mobile"
+    },
+    "status": "SUCCESS",
+    "id": "272e3319-d216-4b45-b4b3-0ae9bba630f9",
+    "timestamp": "2026-10-29T07:18:58.548Z"
+  },
+  {
+    "actorId": "rohan.singh@transsion.com",
+    "actorName": "Rohan Raj Singh",
+    "actorRole": "Employee",
+    "action": "REQUEST_SUBMITTED",
+    "entityType": "Request",
+    "entityId": "87381d3d-b698-4540-bf9f-084ef76b50b0",
+    "details": {
+      "category": "Mobile",
+      "purpose": "Audio fidelity and mic response tests",
+      "projectDepartment": "Basic Quality",
+      "duration": "14 days",
+      "preferredDevice": "Tecno Camon 30 Premier",
+      "targetReviewer": "Kamal Sharma (kamal.sharma@transsion.com)"
+    },
+    "status": "SUCCESS",
+    "id": "5414d73e-3de7-4873-acf9-6ef46c896741",
+    "timestamp": "2026-10-29T07:18:51.934Z"
+  },
+  {
+    "actorId": "rohan.singh@transsion.com",
+    "actorName": "Rohan Raj Singh",
+    "actorRole": "Employee",
+    "action": "REQUEST_SUBMITTED",
+    "entityType": "Request",
+    "entityId": "7ead184b-2742-4b89-ba7c-7d37aff50356",
+    "details": {
+      "category": "Mobile",
+      "purpose": "Camera stabilization and low-light benchmarking",
+      "projectDepartment": "Basic Quality",
+      "duration": "14 days",
+      "preferredDevice": "Tecno Camon 30 Premier",
+      "targetReviewer": "Pranav Kumar (pranav.kumar@transsion.com)"
+    },
+    "status": "SUCCESS",
+    "id": "4c48b168-9a2f-471a-8f46-5474314ef5b9",
+    "timestamp": "2026-10-29T07:17:23.827Z"
+  },
+  {
+    "actorId": "rohan.singh@transsion.com",
+    "actorName": "Rohan Raj Singh",
+    "actorRole": "Employee",
+    "action": "REQUEST_SUBMITTED",
+    "entityType": "Request",
+    "entityId": "2af5426f-5220-44ba-a5e3-188586412551",
+    "details": {
+      "category": "Mobile",
+      "purpose": "Camera stabilization and low-light benchmarking",
+      "projectDepartment": "Basic Quality",
+      "duration": "14 days",
+      "preferredDevice": "Tecno Camon 30 Premier",
+      "targetReviewer": "Pranav Kumar (pranav.kumar@transsion.com)"
+    },
+    "status": "SUCCESS",
+    "id": "bef619fa-4ec8-4000-bc18-e4eb73092767",
+    "timestamp": "2026-10-29T07:16:38.060Z"
+  },
+  {
+    "actorId": "Vinod Kundra (19101269)",
+    "actorRole": "Admin",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "d5efc9b6-8e6f-462d-b3d4-2d1506a27b35",
+    "details": {
+      "itemName": "Other Realme 40 pro",
+      "itemId": "521652651505606",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163",
+      "assignedFrom": "IT Stock",
+      "assignedBy": "Vinod Kundra (19101269)"
+    },
+    "status": "SUCCESS",
+    "id": "cac57d68-4e3b-4497-8d9a-34ca94ee8e8d",
+    "timestamp": "2026-10-29T06:09:55.634Z"
+  },
+  {
+    "actorId": "vinod.kundra@transsion.com",
+    "actorRole": "Admin",
+    "action": "PASSWORD_CHANGED",
+    "entityType": "User",
+    "entityId": "19101269",
+    "details": {
+      "name": "Vinod Kundra",
+      "email": "vinod.kundra@transsion.com",
+      "empCode": "19101269",
+      "message": "Password successfully updated by user"
+    },
+    "status": "SUCCESS",
+    "id": "42eb3316-7c89-4f0c-8758-369f5bb1bf3c",
+    "timestamp": "2026-10-29T06:06:28.856Z"
+  },
+  {
+    "actorId": "Vinod Kundra (Admin)",
+    "actorRole": "Admin",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "04601b20-416d-40c3-bc43-c4063a1c4c58",
+    "details": {
+      "itemName": "Oraimo 30 Pro",
+      "itemId": "123412341231212",
+      "employeeName": "Rexy",
+      "employeeId": "pranav.gupta@transsion.com",
+      "returnedBy": "pranav",
+      "returnedTo": "Vinod Kundra (Admin)",
+      "returnLocation": "Main Warehouse",
+      "returnCondition": "Pristine / Like New",
+      "returnedAt": "2026-10-28"
+    },
+    "status": "SUCCESS",
+    "id": "f32493e6-c37e-4dc3-8841-d24297502f0d",
+    "timestamp": "2026-10-28T10:43:19.997Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "26e75209-b0be-42fc-a6e5-f0f5069883c9",
+    "details": {
+      "brand": "Tecno",
+      "deviceModel": "Camon 20 Pro",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "b14e8626-e7a4-4781-be68-d5a19a57e0dd",
+    "timestamp": "2026-10-28T10:30:59.492Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "a4f78060-c7cd-4e51-9ef3-111183aa245d",
+    "details": {
+      "updatedFields": [
+        "inventoryHolder",
+        "remarks",
+        "status"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "3969ee84-54a7-4d1b-b044-3249a2b6c8b1",
+    "timestamp": "2026-10-28T10:30:57.644Z"
+  },
+  {
+    "actorId": "Vinod Kundra (Admin)",
+    "actorRole": "Admin",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "738a14e4-ffd9-439c-8c4e-7ea908b35890",
+    "details": {
+      "itemName": "Tecno Power",
+      "itemId": "545120445214841",
+      "employeeName": "Subham Kumar",
+      "employeeId": "19105242",
+      "returnedBy": "Subham Kumar",
+      "returnedTo": "Vinod Kundra (Admin)",
+      "returnLocation": "QA Lab Benches",
+      "returnCondition": "Pristine / Like New",
+      "returnedAt": "2026-10-28",
+      "notes": "Device returned with box, charger and cable intact. Inspection verified."
+    },
+    "status": "SUCCESS",
+    "id": "2229157b-1117-45ab-9f30-35f32a7c77cc",
+    "timestamp": "2026-10-28T09:08:46.531Z"
+  },
+  {
+    "actorId": "Vinod Kundra (19101269)",
+    "actorRole": "Admin",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "738a14e4-ffd9-439c-8c4e-7ea908b35890",
+    "details": {
+      "itemName": "Tecno Power",
+      "itemId": "545120445214841",
+      "employeeName": "Subham Kumar",
+      "employeeId": "19105242",
+      "assignedFrom": "WH-1 (Main Hub)",
+      "assignedBy": "Vinod Kundra (19101269)",
+      "requestedBy": "subham.kumar@transsion.com",
+      "requestId": "REQ-AUTOMATION-TEST"
+    },
+    "status": "SUCCESS",
+    "id": "be9a7540-e024-4a0c-9394-a02253bb9e56",
+    "timestamp": "2026-10-28T09:08:40.214Z"
+  },
+  {
+    "actorId": "19103964",
+    "actorRole": "TL",
+    "action": "INVENTORY_BULK_UPLOAD",
+    "entityType": "BulkUpload",
+    "entityId": "BATCH_1793173502519",
+    "details": {
+      "totalRows": 1,
+      "importedCount": 1,
+      "blockedCount": 0
+    },
+    "status": "SUCCESS",
+    "id": "c7125e8e-1214-4799-aed5-18c47774c14e",
+    "timestamp": "2026-10-28T07:45:02.519Z"
+  },
+  {
+    "actorId": "Gurdeep",
+    "actorRole": "TL",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "2ae7fb5c-50c5-4b25-893d-e6ff757c09b7",
+    "details": {
+      "itemName": "Tecno Camon 30 Pro 5G Test",
+      "itemId": "869349485511111",
+      "employeeName": "Gurdeep",
+      "employeeId": "Gurdeep"
+    },
+    "status": "SUCCESS",
+    "id": "af53ca9e-e724-425e-a81f-9fc9908f8475",
+    "timestamp": "2026-10-28T07:45:02.491Z"
+  },
+  {
+    "actorId": "19103964",
+    "actorRole": "TL",
+    "action": "INVENTORY_BULK_UPLOAD",
+    "entityType": "BulkUpload",
+    "entityId": "BATCH_1793173435880",
+    "details": {
+      "totalRows": 1,
+      "importedCount": 0,
+      "blockedCount": 1
+    },
+    "status": "FLAGGED",
+    "id": "677df14a-5f3d-4f87-aa52-37ef23f46520",
+    "timestamp": "2026-10-28T07:43:55.880Z"
+  },
+  {
+    "actorId": "19103964",
+    "actorRole": "TL",
+    "action": "INVENTORY_BULK_UPLOAD",
+    "entityType": "BulkUpload",
+    "entityId": "BATCH_1793173422725",
+    "details": {
+      "totalRows": 1,
+      "importedCount": 0,
+      "blockedCount": 1
+    },
+    "status": "FLAGGED",
+    "id": "294e7c09-4006-4dc6-8d03-7ba4de172b1a",
+    "timestamp": "2026-10-28T07:43:42.725Z"
+  },
+  {
+    "actorId": "pranav.kumar@transsion.com",
+    "actorRole": "TL",
+    "action": "PASSWORD_CHANGED",
+    "entityType": "User",
+    "entityId": "19103849",
+    "details": {
+      "name": "Pranav Kumar",
+      "email": "pranav.kumar@transsion.com",
+      "empCode": "19103849",
+      "message": "Password successfully updated by user"
+    },
+    "status": "SUCCESS",
+    "id": "59fc70c3-bebd-44bf-b1f6-59092680ceaf",
+    "timestamp": "2026-10-27T10:12:04.833Z"
+  },
+  {
+    "actorId": "vinod.kundra@transsion.com",
+    "actorRole": "Admin",
+    "action": "EMPLOYEE_REMOVED",
+    "entityType": "User",
+    "entityId": "198750065",
+    "details": {
+      "name": "Garima",
+      "email": "garima.bhatt@transsion.com",
+      "empCode": "198750065",
+      "team": "VOC Team",
+      "role": "Employee"
+    },
+    "status": "SUCCESS",
+    "id": "474e100b-bb67-4705-ac09-9dbc1b727499",
+    "timestamp": "2026-10-27T10:06:37.411Z"
+  },
+  {
+    "actorId": "vinod.kundra@transsion.com",
+    "actorRole": "Admin",
+    "action": "EMPLOYEE_ADDED",
+    "entityType": "User",
+    "entityId": "198750065",
+    "details": {
+      "name": "Garima",
+      "email": "garima.bhatt@transsion.com",
+      "empCode": "198750065",
+      "team": "VOC Team",
+      "role": "Employee"
+    },
+    "status": "SUCCESS",
+    "id": "25213093-be47-4d6e-986a-29c8ded3604e",
+    "timestamp": "2026-10-27T07:22:11.940Z"
+  },
+  {
+    "actorId": "vinod.kundra@transsion.com",
+    "actorRole": "Admin",
+    "action": "PASSWORD_CHANGED",
+    "entityType": "User",
+    "entityId": "19101269",
+    "details": {
+      "name": "Vinod Kundra",
+      "email": "vinod.kundra@transsion.com",
+      "empCode": "19101269",
+      "message": "Password successfully updated by user"
+    },
+    "status": "SUCCESS",
+    "id": "61a093b4-c8c1-406c-a7a1-6cb0fb2a869c",
+    "timestamp": "2026-10-27T07:19:06.174Z"
+  },
+  {
+    "actorId": "rohan.singh@transsion.com",
+    "actorRole": "Employee",
+    "action": "PASSWORD_CHANGED",
+    "entityType": "User",
+    "entityId": "19101020",
+    "details": {
+      "name": "Rohan Raj Singh",
+      "email": "rohan.singh@transsion.com",
+      "empCode": "19101020",
+      "message": "Password successfully updated by user"
+    },
+    "status": "SUCCESS",
+    "id": "a3c834fa-7dee-4e44-b500-f2b3782d55ef",
+    "timestamp": "2026-10-27T06:52:16.041Z"
+  },
+  {
+    "actorId": "employee@company.com",
+    "actorRole": "Employee",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "5c794c83-639c-46c2-8f1f-bca9bb4459da",
+    "details": {
+      "itemName": "Infinix Note 40 Pro",
+      "employeeName": "",
+      "returnedAt": "2026-10-26",
+      "notes": "Assigned via request fulfillment #995fbda5"
+    },
+    "status": "SUCCESS",
+    "id": "b3ed2e4f-9aae-43f2-bbd8-e606824efa55",
+    "timestamp": "2026-10-26T10:48:05.504Z"
+  },
+  {
+    "actorId": "vinod.kundra@transsion.com",
+    "actorRole": "Admin",
+    "action": "EMPLOYEE_REMOVED",
+    "entityType": "User",
+    "entityId": "65840",
+    "details": {
+      "name": "Garima",
+      "email": "garima.bhatt@transsion.com",
+      "empCode": "65840",
+      "team": "Basic Quality",
+      "role": "TL"
+    },
+    "status": "SUCCESS",
+    "id": "96903d6d-6fbb-4d66-8fc2-e34f46a87225",
+    "timestamp": "2026-10-26T10:34:41.030Z"
+  },
+  {
+    "actorId": "vinod.kundra@transsion.com",
+    "actorRole": "Admin",
+    "action": "EMPLOYEE_ADDED",
+    "entityType": "User",
+    "entityId": "65840",
+    "details": {
+      "name": "Garima",
+      "email": "garima.bhatt@transsion.com",
+      "empCode": "65840",
+      "team": "Basic Quality",
+      "role": "TL"
+    },
+    "status": "SUCCESS",
+    "id": "72f80cd9-786d-449e-a1a6-208637ce1731",
+    "timestamp": "2026-10-26T10:33:56.800Z"
+  },
+  {
+    "actorId": "vinod.kundra@transsion.com",
+    "actorRole": "Admin",
+    "action": "EMPLOYEE_REMOVED",
+    "entityType": "User",
+    "entityId": "19109999",
+    "details": {
+      "name": "Pooja Sharma",
+      "email": "pooja.sharma.test@transsion.com",
+      "empCode": "19109999",
+      "team": "Basic Quality",
+      "role": "Employee"
+    },
+    "status": "SUCCESS",
+    "id": "22139b1c-3dfb-4e8d-a4fd-601ba45eaf64",
+    "timestamp": "2026-10-26T10:27:23.387Z"
+  },
+  {
+    "actorId": "vinod.kundra@transsion.com",
+    "actorRole": "Admin",
+    "action": "EMPLOYEE_ADDED",
+    "entityType": "User",
+    "entityId": "19109999",
+    "details": {
+      "name": "Pooja Sharma",
+      "email": "pooja.sharma.test@transsion.com",
+      "empCode": "19109999",
+      "team": "Basic Quality",
+      "role": "Employee"
+    },
+    "status": "SUCCESS",
+    "id": "6f9d119c-d5c3-4279-b5ef-667e62ce5034",
+    "timestamp": "2026-10-26T10:27:21.438Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "ad3cb53c-8fdc-495f-a250-82d8f7e6367b",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "ce2daa94-23bd-4cbf-a42f-9668e00b4bfa",
+    "timestamp": "2026-10-26T09:57:59.591Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "ad3cb53c-8fdc-495f-a250-82d8f7e6367b",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "1597b7b8-a68a-46e4-adcb-e51fb9900634",
+    "timestamp": "2026-10-26T09:57:59.584Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "ad3cb53c-8fdc-495f-a250-82d8f7e6367b",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "b411053a-f019-4f3c-835d-00165f93f9b9",
+    "timestamp": "2026-10-26T09:57:59.563Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "644c243d-f46b-4a62-82ed-b815c91577fa",
+    "timestamp": "2026-10-26T09:57:59.300Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "694fcab1-a55b-406f-980a-7da558bcac3e",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "320bb18a-fad5-4eb1-b5e6-5178e12ba679",
+    "timestamp": "2026-10-26T09:57:59.297Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "259063e0-55c6-4eba-b557-367c52f503a8",
+    "timestamp": "2026-10-26T09:57:59.295Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "11ebe971-208c-441f-980d-8df8cca335f5",
+    "timestamp": "2026-10-26T09:57:59.294Z"
+  },
+  {
+    "actorId": "19105163",
+    "actorRole": "TL",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "b74d45ac-89c4-4355-96c1-3e5b24b15e7b",
+    "details": {
+      "itemName": "Tecno POVA2",
+      "itemId": "123123123123123",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163"
+    },
+    "status": "SUCCESS",
+    "id": "6ab70515-09e8-413a-b115-7c231f3fcf65",
+    "timestamp": "2026-10-26T09:45:25.525Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "89140e05-3818-4263-b4b8-3fa4c7ec534f",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "84b7854c-28c6-4d66-8e09-40e88eff1b38",
+    "timestamp": "2026-10-26T09:44:53.728Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "reczz28NZsSGsbZC",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "575cd770-4071-4fc9-b459-500c574eeab0",
+    "timestamp": "2026-10-26T09:44:29.772Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "reczz28NZsSGsdfN",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "bc68f1fd-733c-44f2-91f4-801449522d2a",
+    "timestamp": "2026-10-26T09:44:15.163Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "reczz28NZsSGsdRJ",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "cd1efb35-1e66-4435-9177-12550e84e6c3",
+    "timestamp": "2026-10-26T09:44:11.015Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "reczz28NZsSGscsw",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "9eb1e1bc-da03-47c1-ad62-29f83b70fecb",
+    "timestamp": "2026-10-26T09:44:07.226Z"
+  },
+  {
+    "actorId": "19105163",
+    "actorRole": "Employee",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "2e31b7b1-b8f3-4fa2-b97d-c96e2198aca0",
+    "details": {
+      "itemName": "Tecno Can",
+      "employeeName": "Harshit Bhatnagar",
+      "returnedAt": "2026-10-26",
+      "notes": "Testing completed successfully, returned to IT Stock"
+    },
+    "status": "SUCCESS",
+    "id": "aa1eefe3-93ec-4440-b3c1-4048b903c891",
+    "timestamp": "2026-10-26T09:41:57.072Z"
+  },
+  {
+    "actorId": "19105163",
+    "actorRole": "TL",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "2e31b7b1-b8f3-4fa2-b97d-c96e2198aca0",
+    "details": {
+      "itemName": "Tecno Can",
+      "itemId": "123123123123124",
+      "employeeName": "Harshit Bhatnagar",
+      "employeeId": "19105163"
+    },
+    "status": "SUCCESS",
+    "id": "4d06f15c-0198-43a9-a007-6897535cdf74",
+    "timestamp": "2026-10-26T09:41:50.943Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "cb0977aa-4121-4010-a84f-77dd17121a69",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "ef726f4d-6657-4bbb-b5bd-28b8cd15d32a",
+    "timestamp": "2026-10-26T09:24:53.898Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "cb0977aa-4121-4010-a84f-77dd17121a69",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "816d975b-606c-469b-b2c0-b83bba21b2b0",
+    "timestamp": "2026-10-26T09:24:53.892Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "cb0977aa-4121-4010-a84f-77dd17121a69",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "1acb3e1f-c5fe-48cc-8d21-9179cb95c69a",
+    "timestamp": "2026-10-26T09:24:53.868Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "93114536-5c1a-4a17-957c-85606481a399",
+    "timestamp": "2026-10-26T09:24:52.938Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "2ff9aa0c-4229-4052-9adc-0587f7c823fb",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "26e9e30d-fa27-4bab-ba00-f366c4ec3ebe",
+    "timestamp": "2026-10-26T09:24:52.936Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "a08c3d6b-3395-4e5d-8dd8-537b8b84c1bd",
+    "timestamp": "2026-10-26T09:24:52.934Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "dd5f71c0-e3bc-4950-b3bf-63495f8e0a13",
+    "timestamp": "2026-10-26T09:24:52.933Z"
+  },
+  {
+    "actorId": "harshit.bhatnagar@transsion.com",
+    "actorName": "Harshit Bhatnagar",
+    "actorRole": "Employee",
+    "action": "REQUEST_SUBMITTED",
+    "entityType": "Request",
+    "entityId": "80791608-2884-4c0e-a31d-3f1cc4ddb41a",
+    "details": {
+      "category": "Mobile",
+      "purpose": "testing benchmark",
+      "projectDepartment": "India Overseas Station - R&D Testing",
+      "duration": "30 days",
+      "preferredDevice": "Iphone 15"
+    },
+    "status": "SUCCESS",
+    "id": "23c76ad2-1169-41c7-913f-b3cdeff7d8ae",
+    "timestamp": "2026-10-26T07:02:56.756Z"
+  },
+  {
+    "actorId": "umesh.kumar4@transsion.com",
+    "actorName": "Umesh Kumar",
+    "actorRole": "Employee",
+    "action": "REQUEST_SUBMITTED",
+    "entityType": "Request",
+    "entityId": "c07cf310-5ad5-4aac-91db-86fca61338b3",
+    "details": {
+      "category": "Accessory",
+      "purpose": "VOC battery reliability tests",
+      "projectDepartment": "VOC Team",
+      "duration": "7 days",
+      "preferredDevice": "68W Ultra Charger"
+    },
+    "status": "SUCCESS",
+    "id": "70cf79e2-a15b-4c7f-8142-208406845dec",
+    "timestamp": "2026-10-26T06:59:31.432Z"
+  },
+  {
+    "actorId": "harshit.bhatnagar@transsion.com",
+    "actorName": "Harshit Bhatnagar",
+    "actorRole": "Employee",
+    "action": "REQUEST_SUBMITTED",
+    "entityType": "Request",
+    "entityId": "63cfb254-d860-47ae-90cf-73743d72c5c3",
+    "details": {
+      "category": "Mobile",
+      "purpose": "Scenario benchmarking testing",
+      "projectDepartment": "Scenario team",
+      "duration": "14 days",
+      "preferredDevice": "Tecno Camon 30"
+    },
+    "status": "SUCCESS",
+    "id": "1fdfcc07-f9d6-487b-a4ad-715ac2061ac9",
+    "timestamp": "2026-10-26T06:59:12.546Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "056a13bf-d02e-4089-99f4-4b79c9220856",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "d365dc3b-d102-4a5e-964d-e3f1f18f95ad",
+    "timestamp": "2026-10-26T06:45:12.508Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "056a13bf-d02e-4089-99f4-4b79c9220856",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "f42acc25-49e4-4d69-8027-d44c32d0b6fe",
+    "timestamp": "2026-10-26T06:45:12.503Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "056a13bf-d02e-4089-99f4-4b79c9220856",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "32912025-6699-463a-9242-0571d0322c35",
+    "timestamp": "2026-10-26T06:45:12.482Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "f18db8d2-70c1-4620-a4fc-29be44a176f8",
+    "timestamp": "2026-10-26T06:45:12.173Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "a7181e2f-8d4f-43d2-a1a3-3113cc100c43",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "f94f0ca5-13b2-4b8b-90b9-9907ceb6ce44",
+    "timestamp": "2026-10-26T06:45:12.172Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "7fad3099-ebc2-4862-a70b-239b7bb926c8",
+    "timestamp": "2026-10-26T06:45:12.170Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "0b43ba56-b0cf-4c4b-8c29-d0d2df3e06ad",
+    "timestamp": "2026-10-26T06:45:12.168Z"
+  },
+  {
+    "actorId": "harshit.bhatnagar@transsion.com",
+    "actorName": "Harshit Bhatnagar",
+    "actorRole": "Employee",
+    "action": "REQUEST_SUBMITTED",
+    "entityType": "Request",
+    "entityId": "2123cbcd-adef-4fd7-b556-a1a684ddf0c2",
+    "details": {
+      "category": "Mobile",
+      "purpose": "Testing",
+      "projectDepartment": "India Overseas Station - R&D Testing",
+      "duration": "30 days",
+      "preferredDevice": "Techno Pova 40"
+    },
+    "status": "SUCCESS",
+    "id": "70de6d29-f174-4179-bc8e-13f111386b2f",
+    "timestamp": "2026-10-26T06:29:30.518Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "0cf8c960-8b77-4efb-9748-1c2f3655f459",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "f02214b2-9cd4-4c5e-9c20-fed5ea068e72",
+    "timestamp": "2026-10-26T06:11:24.297Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "0cf8c960-8b77-4efb-9748-1c2f3655f459",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "48a4b947-48bb-4a59-81e3-0455055d8b7b",
+    "timestamp": "2026-10-26T06:11:24.292Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "0cf8c960-8b77-4efb-9748-1c2f3655f459",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "c84a6906-7677-4d11-b3fa-cf14dc985d7d",
+    "timestamp": "2026-10-26T06:11:24.271Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "5f2e948b-d0b1-4df6-bf0d-14bb26363166",
+    "timestamp": "2026-10-26T06:11:24.042Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "4b5d3fc4-4bdc-43f2-8fef-82ca9b02c101",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "c9da9c1b-c6bd-4b83-9291-835c224435e0",
+    "timestamp": "2026-10-26T06:11:24.040Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "c6690c11-d342-426d-925e-2beebe46315c",
+    "timestamp": "2026-10-26T06:11:24.038Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "14915aae-926f-437e-8a0d-7e9d50400dbc",
+    "timestamp": "2026-10-26T06:11:24.037Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "f0696c23-d8b6-4a2c-8228-ebc406fd9be0",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "b7a7e28f-61fd-4361-bbf0-2709cd9a6b2b",
+    "timestamp": "2026-10-26T06:10:22.911Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "f0696c23-d8b6-4a2c-8228-ebc406fd9be0",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "daab8260-3de2-4a75-a367-812859a6d8bf",
+    "timestamp": "2026-10-26T06:10:22.892Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "34114c54-9066-4aaf-8ffc-181cc343dd9f",
+    "timestamp": "2026-10-26T06:10:22.654Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "0d085a7b-9771-454d-bc6f-6c8858bd00d8",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "a2bffc9c-6230-4afe-b08d-81d08d3eabfa",
+    "timestamp": "2026-10-26T06:10:22.653Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "item-1",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "33bbe8a2-6e7f-4d96-8932-8a0c5622565c",
+    "timestamp": "2026-10-26T06:10:22.647Z"
+  },
+  {
+    "actorId": "unknown",
+    "actorRole": "Admin",
+    "action": "DELETION_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "f15a7f11-1e5a-4372-8392-bd0a6df08de2",
+    "details": "Attempted delete on inventory entry. Prohibited by policy.",
+    "status": "BLOCKED",
+    "id": "9dc44d63-ffab-4124-bf91-3997a00ca5d1",
+    "timestamp": "2026-10-26T06:09:11.251Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_UPDATED",
+    "entityType": "Inventory",
+    "entityId": "f15a7f11-1e5a-4372-8392-bd0a6df08de2",
+    "details": {
+      "updatedFields": [
+        "color"
+      ]
+    },
+    "status": "SUCCESS",
+    "id": "db5134a1-d5a8-492d-af15-a337a0e719ad",
+    "timestamp": "2026-10-26T06:09:11.246Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "f15a7f11-1e5a-4372-8392-bd0a6df08de2",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "47d9a152-9697-46d7-9530-29d368839068",
+    "timestamp": "2026-10-26T06:09:11.226Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "e18f8bda-9530-43ed-ba0c-a639a537d232",
+    "timestamp": "2026-10-26T06:09:10.996Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "d17c5fe2-b6ff-4f62-9fbb-f40ec4152322",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "9438eed1-cab6-4060-9cbe-67233f3ed0e6",
+    "timestamp": "2026-10-26T06:09:10.995Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "ece77f2c-b07b-4b5e-ab3b-c7b7b3680166",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "123456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "71fd943d-8aa1-4d23-9fc5-529593bab6ca",
+    "timestamp": "2026-10-26T06:08:48.456Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "ed77f660-ac7c-4fe3-b68b-b6b87246df46",
+    "timestamp": "2026-10-26T06:08:48.222Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "233e36ed-41e4-42ff-94e2-644cf85fb0e1",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "6d457ed1-65de-48fa-b9ec-f404cda1a62c",
+    "timestamp": "2026-10-26T06:08:48.218Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "323456789012345",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '323456789012345' already exists.",
+      "imei1": "323456789012345",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Itel",
+      "deviceModel": "Spark 30"
+    },
+    "status": "BLOCKED",
+    "id": "55727e0f-c576-476f-81c2-f75708f21138",
+    "timestamp": "2026-10-26T06:07:08.542Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "85534706-b100-459e-bf00-2dbdd212f677",
+    "details": {
+      "brand": "Itel",
+      "deviceModel": "Spark 30",
+      "imei1": "423456789012345"
+    },
+    "status": "SUCCESS",
+    "id": "feec6207-870b-4e5f-b3a8-4bc88b03d371",
+    "timestamp": "2026-10-26T06:07:08.536Z"
+  },
+  {
+    "actorId": "pranav.gupta@transsion.com",
+    "actorRole": "TL",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "04601b20-416d-40c3-bc43-c4063a1c4c58",
+    "details": {
+      "itemName": "Oraimo 30 Pro",
+      "itemId": "123412341231212",
+      "employeeName": "Rexy",
+      "employeeId": "pranav.gupta@transsion.com"
+    },
+    "status": "SUCCESS",
+    "id": "a314ad79-7274-4a52-b17e-219b0c41b0b0",
+    "timestamp": "2026-10-21T08:46:09.767Z"
+  },
+  {
+    "actorId": "rex@gmail.com",
+    "actorRole": "Employee",
+    "action": "DEVICE_RETURNED",
+    "entityType": "Assignment",
+    "entityId": "e04fd674-c994-40b8-ba00-74bb4549ca8c",
+    "details": {
+      "itemName": "30 pro",
+      "employeeName": "Rex",
+      "returnedAt": "2026-10-21"
+    },
+    "status": "SUCCESS",
+    "id": "0f2ccebd-5703-44b3-8edd-a7d24134b484",
+    "timestamp": "2026-10-21T08:38:50.822Z"
+  },
+  {
+    "actorId": "rex@gmail.com",
+    "actorRole": "TL",
+    "action": "DEVICE_ASSIGNED",
+    "entityType": "Assignment",
+    "entityId": "e04fd674-c994-40b8-ba00-74bb4549ca8c",
+    "details": {
+      "itemName": "30 pro",
+      "itemId": "123412341231212",
+      "employeeName": "Rex",
+      "employeeId": "rex@gmail.com"
+    },
+    "status": "SUCCESS",
+    "id": "4cce61d6-b8fd-4707-bed2-fcd9dca64fa9",
+    "timestamp": "2026-10-21T08:36:28.479Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "7d9b7903-6541-42ae-944b-ec29b4b86f10",
+    "details": {
+      "brand": "Oraimo",
+      "deviceModel": "30 pro",
+      "imei1": "123412341231212"
+    },
+    "status": "SUCCESS",
+    "id": "be819a97-f198-407c-9edb-9d60fe5e9098",
+    "timestamp": "2026-10-21T08:32:17.785Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "reczz28NZsSGsca9",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "7eb694f5-c4e2-4804-b4e1-fde11543bbdf",
+    "timestamp": "2026-10-21T06:39:57.241Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_DEACTIVATED",
+    "entityType": "Inventory",
+    "entityId": "cab35598-3303-4ffb-ac56-14729e45e4e4",
+    "details": {
+      "status": "Inactive"
+    },
+    "status": "SUCCESS",
+    "id": "3b83be9e-fbd4-426d-b2a3-6861914c2b7f",
+    "timestamp": "2026-10-21T05:15:56.856Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "REQUEST_APPROVED",
+    "entityType": "Request",
+    "entityId": "d6e3851f-7efc-4277-8748-2a7c499f0924",
+    "details": {
+      "status": "Approved",
+      "remarks": "Approved by IT Admin (Admin)",
+      "assignedDevice": "Mobile"
+    },
+    "status": "SUCCESS",
+    "id": "8717f4fb-99c2-4240-9bb9-5ea2d7c65825",
+    "timestamp": "2026-10-21T04:15:37.798Z"
+  },
+  {
+    "actorId": "gpranav859@gmail.com",
+    "actorName": "Test",
+    "actorRole": "Employee",
+    "action": "REQUEST_SUBMITTED",
+    "entityType": "Request",
+    "entityId": "d6e3851f-7efc-4277-8748-2a7c499f0924",
+    "details": {
+      "category": "Mobile",
+      "purpose": "Validation",
+      "projectDepartment": "IT Operations",
+      "duration": "30 days",
+      "preferredDevice": "Itel"
+    },
+    "status": "SUCCESS",
+    "id": "cb474314-f8b4-490f-844e-feab17679240",
+    "timestamp": "2026-10-21T04:14:44.352Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "INVENTORY_CREATED",
+    "entityType": "Inventory",
+    "entityId": "cab35598-3303-4ffb-ac56-14729e45e4e4",
+    "details": {
+      "brand": "Tecno",
+      "deviceModel": "Can",
+      "imei1": "123123123123124"
+    },
+    "status": "SUCCESS",
+    "id": "4763a9f9-764b-4105-90b0-13faa0a98664",
+    "timestamp": "2026-10-21T04:12:29.463Z"
+  },
+  {
+    "actorId": "admin@inventory.internal",
+    "actorRole": "Admin",
+    "action": "DUPLICATE_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "123123123123123",
+    "details": {
+      "error": "Duplicate Checkpoint: A device with IMEI '123123123123123' already exists.",
+      "imei1": "123123123123123",
+      "imei2": "",
+      "vcId": "",
+      "brand": "Tecno",
+      "deviceModel": "Can"
+    },
+    "status": "BLOCKED",
+    "id": "492eeb93-d55d-40d2-8309-76ba4302adb2",
+    "timestamp": "2026-10-21T04:12:19.443Z"
+  },
+  {
+    "actorId": "unknown",
+    "actorRole": "Admin",
+    "action": "DELETION_BLOCKED",
+    "entityType": "Inventory",
+    "entityId": "reczz28NZsSGsbZC",
+    "details": "Attempted delete on inventory entry. Prohibited by policy.",
+    "status": "BLOCKED",
+    "id": "f62e406f-ae96-4240-a655-492fc488864e",
+    "timestamp": "2026-10-16T10:54:46.584Z"
+  }
+]

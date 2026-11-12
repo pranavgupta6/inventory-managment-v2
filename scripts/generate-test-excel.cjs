@@ -1,0 +1,150 @@
+const XLSX = require('xlsx');
+const fs = require('fs');
+const path = require('path');
+
+const standardHeaders = [
+  'Brand',
+  'Device Model',
+  'Sample/HW Type',
+  'Sample Received Date',
+  'VC ID',
+  'IMEI1',
+  'IMEI2',
+  'Color',
+  'Storage/RAM Variant',
+  'Date of Receipt',
+  'Warehouse/Location',
+  'Assigned To (Employee Name)',
+  'Employee ID',
+  'Assigned Date',
+  'Remarks Section',
+];
+
+const testRows = [
+  [
+    'Tecno',
+    'Camon 30 Premier 5G',
+    'PRO',
+    '2026-11-01',
+    'VC-TEST-2026-001',
+    '861234567800001',
+    '861234567800002',
+    'Alps White',
+    '12GB/512GB',
+    '2026-11-01',
+    'WH-1 (Main Hub)',
+    'Rohan Raj Singh',
+    '19101020',
+    '2026-11-03',
+    'Field RF Antenna Performance Test'
+  ],
+  [
+    'Infinix',
+    'GT 20 Pro Gaming',
+    'PR1',
+    '2026-11-01',
+    'VC-TEST-2026-002',
+    '861234567800003',
+    '',
+    'Mecha Silver',
+    '12GB/256GB',
+    '2026-11-01',
+    'WH-2 (Testing Lab)',
+    'Aasim Shaikh',
+    '19102043',
+    '2026-11-03',
+    'Thermal Throttling & GPU Benchmark'
+  ],
+  [
+    'Itel',
+    'S24 Ultra',
+    'MPR',
+    '2026-11-02',
+    'VC-TEST-2026-003',
+    '861234567800004',
+    '861234567800005',
+    'Coastline Blue',
+    '8GB/128GB',
+    '2026-11-02',
+    'WH-1 (Main Hub)',
+    'Arjun Nainwal',
+    '19102770',
+    '2026-11-03',
+    'Basic Quality Regression Suite'
+  ],
+  [
+    'Tecno',
+    'Pova 6 Pro 5G',
+    'PRO-1',
+    '2026-11-02',
+    'VC-TEST-2026-004',
+    '861234567800006',
+    '',
+    'Comet Green',
+    '12GB/256GB',
+    '2026-11-02',
+    'WH-3 (Secure Vault)',
+    '',
+    '',
+    '2026-11-03',
+    'Available In Stock for Lab Allocation'
+  ],
+  [
+    'Infinix',
+    'Zero 30 5G',
+    'PR2',
+    '2026-11-03',
+    'VC-TEST-2026-005',
+    '861234567800007',
+    '861234567800008',
+    'Rome Green',
+    '12GB/256GB',
+    '2026-11-03',
+    'WH-1 (Main Hub)',
+    '',
+    '',
+    '2026-11-03',
+    'In Stock - Front Camera 4K 60fps Protocol'
+  ]
+];
+
+// 1. Build Test Excel Workbook
+const wbTest = XLSX.utils.book_new();
+const wsTest = XLSX.utils.aoa_to_sheet([standardHeaders, ...testRows]);
+wsTest['!cols'] = standardHeaders.map(() => ({ wch: 24 }));
+XLSX.utils.book_append_sheet(wbTest, wsTest, 'Devices');
+const excelTestPath = path.resolve(__dirname, '..', 'test_bulk_inventory_upload.xlsx');
+XLSX.writeFile(wbTest, excelTestPath);
+
+// 2. Build Test CSV File
+const csvTestRows = [
+  standardHeaders.join(','),
+  ...testRows.map((row) =>
+    row
+      .map((cell) => {
+        const val = cell || '';
+        return `"${val.replace(/"/g, '""')}"`;
+      })
+      .join(',')
+  ),
+];
+const csvTestPath = path.resolve(__dirname, '..', 'test_bulk_inventory_upload.csv');
+fs.writeFileSync(csvTestPath, csvTestRows.join('\r\n'), 'utf8');
+
+// 3. Build Raw Template Excel File (Headers only)
+const wbTemplate = XLSX.utils.book_new();
+const wsTemplate = XLSX.utils.aoa_to_sheet([standardHeaders]);
+wsTemplate['!cols'] = standardHeaders.map(() => ({ wch: 24 }));
+XLSX.utils.book_append_sheet(wbTemplate, wsTemplate, 'Template');
+const templateExcelPath = path.resolve(__dirname, '..', 'bulk_upload_template.xlsx');
+XLSX.writeFile(wbTemplate, templateExcelPath);
+
+// 4. Build Raw Template CSV File (Headers only)
+const templateCsvPath = path.resolve(__dirname, '..', 'bulk_upload_template.csv');
+fs.writeFileSync(templateCsvPath, standardHeaders.join(',') + '\r\n', 'utf8');
+
+console.log('All files generated successfully:');
+console.log(' - ' + excelTestPath);
+console.log(' - ' + csvTestPath);
+console.log(' - ' + templateExcelPath);
+console.log(' - ' + templateCsvPath);
